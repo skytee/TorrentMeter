@@ -1,0 +1,11 @@
+= Code and data associated to a bandwith gauge =
+
+== Methodology ==
+FTTH → /sys/class/net/$dev/statistics → Perl → USB → Arduino → PWM → transistor switch → moving coil gauge :)
+
+== ToDo ==
+FTTH → /sys/class/net/$dev/statistics → SNMP → Ethernet → cheap-ass µC → PWM → transistor switch → moving coil gauge :)
+
+
+
+
