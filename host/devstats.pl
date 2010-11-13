@@ -1,4 +1,22 @@
 #!/usr/bin/perl
+#
+#	This file is part of a Torrentmeter software package,
+#	hereafter TSP.
+#
+#	TSP is licensed under free software, you can redistribute it and/or modify
+#	it under the terms of the GNU General Public License as published by
+#	the Free Software Foundation, either version 2 of the License, or
+#	(at your option) any later version.
+#
+#	TSP is distributed in the hope that it will be useful,
+#	but WITHOUT ANY WARRANTY; without even the implied warranty of
+#	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#	GNU General Public License for more details.
+#
+#	You should have received a copy of the GNU General Public License
+#	along with TSP.  If not, see <http://www.gnu.org/licenses/>.
+#
+#	2010, Thorsten Haas, github@skytee.com
 
 use strict;
 use warnings;
