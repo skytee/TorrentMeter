@@ -1,6 +1,9 @@
 = Code and data associated to a bandwith gauge =
 
-== Methodology ==
+ * src: TorrentMeter driver for Arduino
+ * host: throughput measurement software for your host computer
+
+== Method ==
 FTTH → /sys/class/net/$dev/statistics → Perl → USB → Arduino → PWM → transistor switch → moving coil gauge :)
 
 == ToDo ==
