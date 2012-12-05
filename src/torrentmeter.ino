@@ -51,8 +51,9 @@ void setmeter(int value) {
 		pwmnow,		// current pwm value
 		i;
 	
-	analogWrite(meter, 255-value);
-	return;
+	// uncomment this if you need to input pwm values, e.g. for calibration.
+	//analogWrite(meter, 255-value);
+	//return;
 
 	// compute key for pwm lookup table.
 	keynow = value / 5;		// 20 steps and 0
